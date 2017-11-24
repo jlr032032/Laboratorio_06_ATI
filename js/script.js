@@ -23,21 +23,21 @@
 	
 })();
 
-// function operarJson() {
-// 	var json_texto = '{ "employees" : [' +
-// 	'{ "firstName":"John" , "lastName":"Doe" },' +
-// 	'{ "firstName":"Anna" , "lastName":"Smith" },' +
-// 	'{ "firstName":"Peter" , "lastName":"Jones" } ]}';
+function operarJson() {
+ 	var json_texto = '{ "employees" : [' +
+ 	'{ "firstName":"John" , "lastName":"Doe" },' +
+ 	'{ "firstName":"Anna" , "lastName":"Smith" },' +
+ 	'{ "firstName":"Peter" , "lastName":"Jones" } ]}';
 
-// 	var objeto = JSON.parse(json_texto); 
-// 	empleados = objeto.employees;
-// 	cantidad_empleados = objeto.employees.length;
+ 	var objeto = JSON.parse(json_texto); 
+ 	empleados = objeto.employees;
+ 	cantidad_empleados = objeto.employees.length;
 
-// 	for (var e=0; e<cantidad_empleados; e++) {
-// 		alert("Mi nombre es: "+empleados[e].firstName);
-// 		alert("Mi apellido es: "+empleados[e].lastName);
-// 	}
-// }
+ 	for (var e=0; e<cantidad_empleados; e++) {
+ 		alert("Mi nombre es: "+empleados[e].firstName);
+ 		alert("Mi apellido es: "+empleados[e].lastName);
+ 	}
+}
 
 function section_one() {
 	document.getElementById('section_one').style.display = 'block';
